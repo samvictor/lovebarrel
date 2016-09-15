@@ -1,0 +1,14 @@
+dj-database-url==0.4.0
+
+gunicorn==19.4.5
+psycopg2==2.6.1
+
+whitenoise==2.0.6
+
+Flask==0.11.1
+Jinja2==2.8
+Werkzeug==0.11.11
+certifi==0.0.8
+chardet==2.3.0
+distribute==0.7.3
+requests==2.11.1
