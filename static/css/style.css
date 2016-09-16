@@ -1,29 +1,30 @@
-@import url("bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Assistant|Open+Sans|Raleway");
 
-h1, h3, p, t 
+h1, h2, h3, h4, h5, h6, p, t, body
 {
-	color: white;
+	color: #000;
 }
 
 
-h1, h3 
+h1, h3, h2, h4, h5, h6
 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 
-p, t 
+p, t, body
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Assistant', sans-serif;
 }
 	
 body 
 {
-	background-color: black;
+	background-color: #eee;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 
 .samButton
 {
@@ -43,6 +44,14 @@ body
 .samButton p
 {
 	margin: 1em;
+}
+
+.sam_panel {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 13px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -75,3 +84,35 @@ button.close:focus {
 	color: #fff;
     cursor: pointer;
 }
+
+.container-fluid {
+    margin: 0px;
+    background-color: rgba(255,255,255,0.25);
+    padding-top: 50px;
+}
+
+.navbar > .container {
+    margin-left: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+    color: #290;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #222;
+    font-weight: 800;
+}
+
+
+.hidden {
+    visibility:hidden
+}
+

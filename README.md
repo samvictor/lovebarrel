@@ -1,5 +1,5 @@
-# sammysam_heroku
+# Love Barrel
 
-Flask code for my heroku website 
+Flask code for Love Barrel International
 
-http://sammysam.herokuapp.com
+http://www.lovebarrel.org
