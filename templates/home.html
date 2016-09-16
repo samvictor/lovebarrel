@@ -1,0 +1,142 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	
+	<script>
+		document.body.style.backgroundImage="url({{ url_for('static', filename='city_bg.jpg') }})"
+	</script>
+	
+	<!--img src="{{ url_for('static', filename='FadeMyName3.png') }}" alt="Banner" style="width:100%"-->
+	
+	<div class = "visible-xs-block" >
+		<h1 style="text-align: center">Sam's Website</h1>	
+		<p style="text-align: center">Welcome</p>
+	</div>
+	
+	<div class="row">
+	  <div class="col-sm-2">
+		<div class='samButton' href="https:SamInniss.weebly.com" style="width: 100%">
+		  <p>Weebly Site</p>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-2">
+		<div class='samButton' href="#" style="width: 100%">
+		  <p>Blender</p>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-2">
+		<div class='samButton' href="#" style="width: 100%">
+		  <p>Gimp</p>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-2">
+		<div class='samButton' href="#" style="width: 100%">
+		  <p>Unity</p>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-2">
+		<div class='samButton' href="#" style="width: 100%">
+		  <p>Programs</p>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-2">
+		<div class='samButton' href="#" style="width: 100%">
+		  <p>Contact Info</p>
+		</div>
+	  </div>
+	</div>
+	
+	
+	<div class = "hidden-xs">
+		<h1 style="text-align: center">Sam's Website</h1>	
+		<p style="text-align: center">Welcome</p>
+	</div>
+	
+	
+	<br><br><br><br><br>
+	<div style="border: 1px solid white; padding: 1em; width: 80%; margin: 0 auto">
+		<div id="showcase_carousel" class="carousel slide" data-ride="carousel"
+				style="margin: 0 auto">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#showcase_carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#showcase_carousel" data-slide-to="1"></li>
+			<li data-target="#showcase_carousel" data-slide-to="2"></li>
+			<li data-target="#showcase_carousel" data-slide-to="3"></li>
+			<li data-target="#showcase_carousel" data-slide-to="4"></li>
+			<li data-target="#showcase_carousel" data-slide-to="5"></li>
+		  </ol>
+		
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src={{url_for('static', filename='images/showcase/bar.png')}} alt="Bar">
+			  <div class="carousel-caption">
+				<t>Bar</t>
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <img src={{url_for('static', filename='images/showcase/name.png')}} alt="Name">
+			  <div class="carousel-caption">
+				<t>Say My Name</t>
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <img src={{url_for('static', filename='images/showcase/haus.png')}} alt="Haus">
+			  <div class="carousel-caption" >
+				<t>Haus</t>
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <img src={{url_for('static', filename='images/showcase/room.png')}} alt="room">
+			  <div class="carousel-caption">
+				<t style="color:#000000">Room</t>
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <img src={{url_for('static', filename='images/showcase/winter.png')}} alt="winter">
+			  <div class="carousel-caption">
+				<t>The Capture</t>
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <img src={{url_for('static', filename='images/showcase/ball.png')}} alt="ball">
+			  <div class="carousel-caption">
+				<t>Roll a Ball</t>
+			  </div>
+			</div>
+		  </div>
+		
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#showcase_carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#showcase_carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	
+	<br><br><br><br><br><br><br>
+	
+	<div class = "hidden-xs">
+	
+		<br><br><br><br><br><br><br><br><br>
+	
+	</div>
+	
+		
+	
+{% endblock %}
