@@ -2,7 +2,7 @@
 
 h1, h2, h3, h4, h5, h6, p, t, body
 {
-	color: #000;
+	color: white;
 }
 
 
@@ -97,13 +97,9 @@ button.close:focus {
     margin-left: 10px;
 }
 
-.navbar-default .navbar-brand {
-    color: black;
-    font-weight: 800;
-}
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand  {
     color: #290;
     font-weight: 800;
 }
