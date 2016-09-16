@@ -50,8 +50,10 @@ body
     background-color: #fff;
     border: 1px solid black;
     padding: 13px;
-    width: 80%;
+    width: 95%;
+    max-width: 1230px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 
